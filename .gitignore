@@ -1,0 +1,35 @@
+# Datasets and archives (too large for GitHub / private clinical images)
+OPMD_new-*.zip
+*.zip
+*.hdf5
+*.h5
+
+# Image datasets and generated outputs
+test_practice/
+enhanced_images/
+labelled_images/
+augmented_images/
+augmented_masks/
+
+# Training artifacts
+runs/
+logs/
+*.log
+
+# Third-party clones (upstream repositories)
+yolov5/
+AttentionUnet/Attention-Gated-Networks/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows shortcut
+*.lnk
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+Thumbs.db
+.DS_Store

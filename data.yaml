@@ -1,0 +1,9 @@
+train: C:/Users/Public/Projects/DH307/test_practice/test_practice
+val: C:/Users/Public/Projects/DH307/test_practice/test_practice
+
+masks:
+  train: C:/Users/Public/Projects/DH307/labelled_images
+  val: C:/Users/Public/Projects/DH307/labelled_images
+
+nc: 2  # Number of classes
+names: ['0', '1']  # Replace with actual class names
